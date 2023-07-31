@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Tale Monster Cube Env/Demo.unity
+- path: Assets/_Game/Scenes/Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
