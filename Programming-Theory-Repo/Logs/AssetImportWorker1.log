@@ -15,7 +15,7 @@ D:/Programming-Theory-Repo/Programming-Theory-Repo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52555
+53787
 Successfully changed project path to: D:/Programming-Theory-Repo/Programming-Theory-Repo
 D:/Programming-Theory-Repo/Programming-Theory-Repo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Programming-Theory-Repo/Programming-Theory-Repo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9416] Host "[IP] 192.168.10.25 [Port] 0 [Flags] 2 [Guid] 3802338186 [EditorId] 3802338186 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LEU160S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19360] Host "[IP] 192.168.10.25 [Port] 0 [Flags] 2 [Guid] 1974117708 [EditorId] 1974117708 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LEU160S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9416] Host "[IP] 192.168.10.25 [Port] 0 [Flags] 2 [Guid] 3802338186 [EditorId] 3802338186 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LEU160S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19360] Host "[IP] 192.168.10.25 [Port] 0 [Flags] 2 [Guid] 1974117708 [EditorId] 1974117708 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LEU160S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 184.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 210.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,95 +67,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021776 seconds.
+Registered in 0.024800 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 181.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 212.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.501 seconds
+- Completed reload, in  1.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1502ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (164ms)
+		EndReloadAssembly (1237ms)
+			LoadAssemblies (198ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (654ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (745ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (141ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (181ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
+				InitializePlatformSupportModulesInManaged (156ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009144 seconds.
+Registered in 0.010753 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.484 seconds
+- Completed reload, in  2.903 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2487ms)
-		BeginReloadAssembly (359ms)
+	ReloadAssembly (2905ms)
+		BeginReloadAssembly (411ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (146ms)
-		EndReloadAssembly (1871ms)
-			LoadAssemblies (180ms)
+			CreateAndSetChildDomain (172ms)
+		EndReloadAssembly (2199ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (600ms)
+			SetupTypeCache (718ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (883ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (1027ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (45ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (553ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (244ms)
+				ProcessInitializeOnLoadAttributes (647ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.3 KB). Loaded Objects now: 3820.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 6.165000 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.229200 ms MarkObjects: 5.356200 ms  DeleteObjects: 0.166400 ms)
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (87.6 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.8 MB to 115.7 MB.
+Total: 6.753400 ms (FindLiveObjects: 0.456000 ms CreateObjectMapping: 0.265500 ms MarkObjects: 5.828700 ms  DeleteObjects: 0.200500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,608 +169,331 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 411437.538220 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.022964 seconds 
+  Time since last request: 416899.464358 seconds.
+  path: Assets/_Game/Prefabs
+  artifactKey: Guid(91a3636d9e308f447abed73982f08f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs using Guid(91a3636d9e308f447abed73982f08f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0c5b19b80d2e9246753851887d8d9') in 0.028461 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008571 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.315 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2317ms)
-		BeginReloadAssembly (295ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1795ms)
-			LoadAssemblies (193ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (611ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (790ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (495ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.9 KB). Loaded Objects now: 3824.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 5.578200 ms (FindLiveObjects: 0.362700 ms CreateObjectMapping: 0.198200 ms MarkObjects: 4.877400 ms  DeleteObjects: 0.138200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3239.416037 seconds.
+  path: Assets/_Game/Prefabs/Red Enemy.prefab
+  artifactKey: Guid(e9909f86f5debba4f8725c68b3f2662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Red Enemy.prefab using Guid(e9909f86f5debba4f8725c68b3f2662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8136d030f9eb2fa7b32b5942b0ebb') in 0.650129 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009466 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.400 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2402ms)
-		BeginReloadAssembly (290ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1841ms)
-			LoadAssemblies (202ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (607ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (843ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (69ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (524ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3828.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 5.443300 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.210100 ms MarkObjects: 4.734900 ms  DeleteObjects: 0.139400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 58.372128 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base.asset
+  artifactKey: Guid(44fcc8a852abb1343bd6165437060363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base.asset using Guid(44fcc8a852abb1343bd6165437060363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d80724dd58bbb1113e631ff3aeb3bdc') in 0.070372 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012806 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.222 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2224ms)
-		BeginReloadAssembly (277ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1721ms)
-			LoadAssemblies (184ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (563ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (792ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (79.9 KB). Loaded Objects now: 3830.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 5.540100 ms (FindLiveObjects: 0.360300 ms CreateObjectMapping: 0.205500 ms MarkObjects: 4.827100 ms  DeleteObjects: 0.145200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.008985 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base_4.asset
+  artifactKey: Guid(7d86c8f2223edc546bc46ca40204f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base_4.asset using Guid(7d86c8f2223edc546bc46ca40204f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cba0252e62f1cc13f3241e99d32aba') in 0.043978 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010341 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.267 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2269ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1760ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (563ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (820ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (507ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3834.
-Memory consumption went from 115.7 MB to 115.7 MB.
-Total: 5.454500 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.197100 ms MarkObjects: 4.740800 ms  DeleteObjects: 0.147300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_low_3.asset
+  artifactKey: Guid(86e62d21de6220d4abd7a504d253ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_low_3.asset using Guid(86e62d21de6220d4abd7a504d253ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0182a8184ee5f3c84264544c3fc309d8') in 0.042793 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010740 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.200 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2201ms)
-		BeginReloadAssembly (276ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1710ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (575ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (779ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (488ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3838.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 5.524100 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.202200 ms MarkObjects: 4.829300 ms  DeleteObjects: 0.118700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_Castle_2.asset
+  artifactKey: Guid(2e65cad9aa7b3b545a6f0fb8f239279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_Castle_2.asset using Guid(2e65cad9aa7b3b545a6f0fb8f239279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f1222042d2e1c63651c089d4e5be14') in 0.043767 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009819 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.275 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2276ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1779ms)
-			LoadAssemblies (187ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (590ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (819ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (522ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3842.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 5.565100 ms (FindLiveObjects: 0.370600 ms CreateObjectMapping: 0.199300 ms MarkObjects: 4.852500 ms  DeleteObjects: 0.140800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Lader_Full_2.asset
+  artifactKey: Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Lader_Full_2.asset using Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c974d928ee26e521bfa81e126969322d') in 0.086016 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011082 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.313 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2315ms)
-		BeginReloadAssembly (289ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1770ms)
-			LoadAssemblies (186ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (579ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (825ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (526ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.9 KB). Loaded Objects now: 3845.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 5.846600 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.199200 ms MarkObjects: 5.021200 ms  DeleteObjects: 0.167900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Leder_Top.asset
+  artifactKey: Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Leder_Top.asset using Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c777f34c436c652a287bab25f2717c52') in 0.037358 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010182 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.166 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2168ms)
-		BeginReloadAssembly (272ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1671ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (553ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (764ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.9 KB). Loaded Objects now: 3848.
-Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 5.629700 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.193600 ms MarkObjects: 4.926900 ms  DeleteObjects: 0.145000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_9.asset
+  artifactKey: Guid(6b5598d11198a0849b91e4be227bde72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_9.asset using Guid(6b5598d11198a0849b91e4be227bde72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd793ca026a84c89ef9662811eb883c4') in 0.041137 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014308 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.412 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2413ms)
-		BeginReloadAssembly (313ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1839ms)
-			LoadAssemblies (216ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (838ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (513ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.8 KB). Loaded Objects now: 3851.
-Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 15.696300 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.203300 ms MarkObjects: 14.879600 ms  DeleteObjects: 0.240100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Coin.asset
+  artifactKey: Guid(f128d26878c5d444d8875a398a91a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Coin.asset using Guid(f128d26878c5d444d8875a398a91a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e4480d3ee47e1ee501503fc849f2d6') in 0.030492 seconds 
 ========================================================================
-Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Registering precompiled user dll's ...
-Registered in 0.012245 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Programming-Theory-Repo\Programming-Theory-Repo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.186 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2187ms)
-		BeginReloadAssembly (306ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1628ms)
-			LoadAssemblies (207ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (495ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (756ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (54.1 KB). Loaded Objects now: 3850.
-Memory consumption went from 112.8 MB to 112.7 MB.
-Total: 5.931800 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.219100 ms MarkObjects: 5.217000 ms  DeleteObjects: 0.121600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_Castle.asset
+  artifactKey: Guid(36aa514d0381ccd40bfe2cd5c54059b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_Castle.asset using Guid(36aa514d0381ccd40bfe2cd5c54059b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb82f9f3289cfb9e6ab1285eba6369f1') in 0.034835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_Cut_2.asset
+  artifactKey: Guid(d2243a990b902f4468bbffc757d16963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_Cut_2.asset using Guid(d2243a990b902f4468bbffc757d16963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf95657291e03725ac0123fdf5146f71') in 0.029317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_low.asset
+  artifactKey: Guid(442d01bfbc7b71948aa1a6de37e291d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_low.asset using Guid(442d01bfbc7b71948aa1a6de37e291d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ec275fd843f18f6078cc846bcb25f') in 0.041148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base_5_solid.asset
+  artifactKey: Guid(421450eb5e88c2b4aaeadb4b076e604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base_5_solid.asset using Guid(421450eb5e88c2b4aaeadb4b076e604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c528a4b25d7541d8b32aa563da2c52') in 0.027092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_6.asset
+  artifactKey: Guid(35f95e2f66e60a7419b9bd37bab1f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_6.asset using Guid(35f95e2f66e60a7419b9bd37bab1f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9f586a4939e97875c9381ae73a4052') in 0.050205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_2.asset
+  artifactKey: Guid(6eac1a067ffd2d14b8589257aaf363c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_2.asset using Guid(6eac1a067ffd2d14b8589257aaf363c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a4d42c063b3517dc87c8c4063aa067') in 0.059127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_4.asset
+  artifactKey: Guid(ab13a371698968d4dae5995b5f0d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_4.asset using Guid(ab13a371698968d4dae5995b5f0d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d9088f61f226800fdefc0eabb240c4') in 0.066998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Leder_Full.asset
+  artifactKey: Guid(a198f720b8c9d1d4da845100b143bb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Leder_Full.asset using Guid(a198f720b8c9d1d4da845100b143bb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca23f7e2a06407d5a32d0b4eb7712b5b') in 0.072402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_low_2.asset
+  artifactKey: Guid(ec3e469d939eef9479447917347efcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_low_2.asset using Guid(ec3e469d939eef9479447917347efcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59caf239b67f45454a783cd2c5b5eaf7') in 0.061460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Window_2.asset
+  artifactKey: Guid(db40a923c256cac4b888ce538c57562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Window_2.asset using Guid(db40a923c256cac4b888ce538c57562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed05f45560b4ce22efb862585494292d') in 0.029319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Castle_part.asset
+  artifactKey: Guid(38fd7db640f53684a86088a5123b6557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Castle_part.asset using Guid(38fd7db640f53684a86088a5123b6557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f06e10a7b60960beba5765b0429085') in 0.033898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Leder_Bottom.asset
+  artifactKey: Guid(0e562151f17100b42b9d786c76b11a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Leder_Bottom.asset using Guid(0e562151f17100b42b9d786c76b11a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b1a639c62f0115d068acc86c9cfacd') in 0.058630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Rock.asset
+  artifactKey: Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Rock.asset using Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c558ed2c9de1555dabc6ae403d2c73') in 0.027822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Rocks_2.asset
+  artifactKey: Guid(6bf72093416f8c048ad69829d710f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Rocks_2.asset using Guid(6bf72093416f8c048ad69829d710f2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438b6aba40a85141f1b206b7ff1ab917') in 0.035454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.463781 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab
+  artifactKey: Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab using Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d078761b1facc2dae10eff17d9ba25') in 0.326087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92452e2dd68c1cbedb758c52b47483ff') in 0.036797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9133dcc1cf75943e6685f2e86825e036') in 0.035648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e43a0c0700b72bb18ab564fdbe774d6') in 0.051427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80212a68df4016deadb85ba2e4afef05') in 0.045883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906980551bfc1b1d6f4684579ba87e22') in 0.045683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700a16c5bb40749167d5f7853e6632d6') in 0.041819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6373488622fba792578574ef353681') in 0.052735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b1e2c9ac5d73febf0d2433e396a4e2') in 0.044924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.736492 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_2.prefab
+  artifactKey: Guid(24a77ab73cfeaa54ba72daf6e1dd0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_2.prefab using Guid(24a77ab73cfeaa54ba72daf6e1dd0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6ca8b1a1362a170ddd514601488b1') in 0.034479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_4.prefab
+  artifactKey: Guid(867aee9deae4d3945937fa8ae8668c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_4.prefab using Guid(867aee9deae4d3945937fa8ae8668c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c046bae1e155104b052df07520799ba') in 0.053760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_6.prefab
+  artifactKey: Guid(8411301af3055db4b933be68cbbe08e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_6.prefab using Guid(8411301af3055db4b933be68cbbe08e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c32debdf6d4b1e69c6eef50da7c6dc2') in 0.086601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_3.prefab
+  artifactKey: Guid(394840af8bfafcd40ab658ebd549b96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_3.prefab using Guid(394840af8bfafcd40ab658ebd549b96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422e1c6f140b0beb0af5d0fbc976bfe4') in 0.044607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_2_tall.prefab
+  artifactKey: Guid(7f842a3a01eb62746818b5d6641622dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_2_tall.prefab using Guid(7f842a3a01eb62746818b5d6641622dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2c3f822026364ef6343ce18193a8b') in 0.047553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_9 _tall.prefab
+  artifactKey: Guid(79abd37487df733468172a283ed6474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_9 _tall.prefab using Guid(79abd37487df733468172a283ed6474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338d7a2bc9175b13c0bcc8deb2a0c423') in 0.052940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.185265 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_2.prefab
+  artifactKey: Guid(b8be7b75c4e8b4c4083862ebb8e149cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_2.prefab using Guid(b8be7b75c4e8b4c4083862ebb8e149cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e885337621b18c01d3de19a602db2') in 0.026599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_4.prefab
+  artifactKey: Guid(a0f8be97c052b9c48aca4a4564242c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_4.prefab using Guid(a0f8be97c052b9c48aca4a4564242c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634191924d7236b962a4ab471b60777e') in 0.032311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_10.prefab
+  artifactKey: Guid(4b36b10160a12d44793dc10a524c9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_10.prefab using Guid(4b36b10160a12d44793dc10a524c9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1155c033b92cc808c41e02be8a38b4') in 0.036395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_3.prefab
+  artifactKey: Guid(2599e607b6d930e4ab5b6d1e1d05ce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_3.prefab using Guid(2599e607b6d930e4ab5b6d1e1d05ce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0babfdf594caac410bbf15533bceba7f') in 0.033685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab
+  artifactKey: Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab using Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da3dab131138b62417f1f2fc1b10af') in 0.040647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.570951 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/ButtonBase.prefab
+  artifactKey: Guid(1400301ed26c91f44a959a300e3e18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/ButtonBase.prefab using Guid(1400301ed26c91f44a959a300e3e18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d3a021d9c3664c00752414e1ed3ae6') in 0.033479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_2.prefab
+  artifactKey: Guid(97032db00b32bea43ae58bcf2f43879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_2.prefab using Guid(97032db00b32bea43ae58bcf2f43879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3eb50c07ae2e30f30826fb9b6e3d75') in 0.037255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Coin.prefab
+  artifactKey: Guid(4f106067e69e37b4bbc1ece430c67a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Coin.prefab using Guid(4f106067e69e37b4bbc1ece430c67a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dd95263f4822d29f2f50f500d43655') in 0.042766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Leder_Bottom.prefab
+  artifactKey: Guid(5e1ff703574530d448cfd71c173d7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Leder_Bottom.prefab using Guid(5e1ff703574530d448cfd71c173d7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d914774daa2fd8cc78581bfd46c366c') in 0.046073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Castle_part.prefab
+  artifactKey: Guid(3fd18f2eb1c0ae24c954ec071bd8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Castle_part.prefab using Guid(3fd18f2eb1c0ae24c954ec071bd8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1163dd6b5bbe5e94e3faf8c762fe159') in 0.039339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Props_1.prefab
+  artifactKey: Guid(5c01dc93a04f3d240b6de1848b332f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Props_1.prefab using Guid(5c01dc93a04f3d240b6de1848b332f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd61898b68f0b718152d3b3796296a') in 0.054354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Wood_bridge.prefab
+  artifactKey: Guid(bacc6766caf81cb42acb7f49711645d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Wood_bridge.prefab using Guid(bacc6766caf81cb42acb7f49711645d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911faf22eb1cad009e30bdb09aac1527') in 0.047767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730356 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_2.prefab
+  artifactKey: Guid(206ba921695287f41ba9e27245b7e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_2.prefab using Guid(206ba921695287f41ba9e27245b7e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3b9ea70068011f9cf772a8dfb1522') in 0.029342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_6_Part.prefab
+  artifactKey: Guid(9d82166a59336d645b2d03937f3c8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_6_Part.prefab using Guid(9d82166a59336d645b2d03937f3c8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa27a70566e1d70b1d51dd2bdb3199a') in 0.030696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_4_simple.prefab
+  artifactKey: Guid(44491c1562f27a24f96d627dfed0ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_4_simple.prefab using Guid(44491c1562f27a24f96d627dfed0ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9615c5adc2aa08feb2956ecb41d40777') in 0.044825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_10.prefab
+  artifactKey: Guid(0dca01cdb28d9c245bbb361d0ef8e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_10.prefab using Guid(0dca01cdb28d9c245bbb361d0ef8e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c87576f77d9a84ad7f1cad14ca7e38d') in 0.041646 seconds 
